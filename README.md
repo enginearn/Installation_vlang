@@ -2,7 +2,7 @@
 
 This directory contains projects written in V.
 
-## Installation
+## Installation for Windows
 
 To install V, follow the instructions in the [V README](https://github.com/vlang/v#installing-v-from-source).
 
@@ -10,15 +10,30 @@ And also execute the following command to recgognize the V language commands:
 
 [Getting Started With V](https://blog.vlang.io/getting-started-with-v/)
 
+- Clone the V repository:
+
+``` PowerShell
+> git clone https://github.com/vlang/v.git
+```
+
+- Then, run the following command to build V:
+
+``` PowerShell
+> cd path/to/v
+> .\make.bat
+```
+
+- Finally, run the following command to create a symlink to the V executable:
+
 ``` PowerShell
 > .\v symlink
 ```
 
-After that, you can run the following command to check if V is installed correctly:
+- After that, you can run the following command to check if V is installed correctly:
 
 ``` PowerShell
 > v version
-V 0.3.3 9794a23
+V 0.3.3 b6ecd63
 ```
 
 ## Projects
