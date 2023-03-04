@@ -44,7 +44,7 @@ C:\Users\path\to\AppData\Local\v\.bin\v.bat
 PS C:\Users\path\to\Development\vlang\installation_v> cd C:\Users\path\to\AppData\Local\v
 PS C:\Users\path\to\AppData\Local\v>
 PS C:\Users\path\to\AppData\Local\v> git pull
-emote: Enumerating objects: 998, done.
+remote: Enumerating objects: 998, done.
 remote: Counting objects: 100% (832/832), done.
 remote: Compressing objects: 100% (403/403), done.
 Receiving objects: 100% (998/998), 962.75 KiB | 3.40 MiB/s, done.
