@@ -36,6 +36,35 @@ And also execute the following command to recgognize the V language commands:
 V 0.3.3 b6ecd63
 ```
 
+## upgrade
+
+``` PowerShell
+installation_v> where.exe v
+C:\Users\path\to\AppData\Local\v\.bin\v.bat
+PS C:\Users\path\to\Development\vlang\installation_v> cd C:\Users\path\to\AppData\Local\v
+PS C:\Users\path\to\AppData\Local\v>
+PS C:\Users\path\to\AppData\Local\v> git pull
+emote: Enumerating objects: 998, done.
+remote: Counting objects: 100% (832/832), done.
+remote: Compressing objects: 100% (403/403), done.
+Receiving objects: 100% (998/998), 962.75 KiB | 3.40 MiB/s, done.
+Resolving deltas:  74% (412/556)eused 649 (delta 417), pack-reused 166Resolving deltas:  32% (178/556)
+Resolving deltas: 100% (556/556), completed with 177 local objects.
+From https://github.com/vlang/v
+   b6ecd634e3..72cbca9653  master           -> origin/master
+ * [new branch]            l1mey112-patch-1 -> origin/l1mey112-patch-1
+ * [new branch]            l1mey112-patch-2 -> origin/l1mey112-patch-2
+ * [new branch]            update-gg-sokol-linux-dependencies -> origin/update-gg-sokol-linux-dependencies
+ * [new tag]               weekly.2023.08   -> weekly.2023.08
+ * [new tag]               weekly.2023.09   -> weekly.2023.09
+Updating b6ecd634e3..72cbca9653
+Fast-forward
+ .github/workflows/bootstrapping_works_ci.yml       |    4 +-
+ create mode 100644 vlib/v/tests/var_option_sumtype_test.v
+PS C:\Users\path\to\AppData\Local\v> v version
+V 0.3.3 b6ecd63
+```
+
 ## Projects
 
 <details>
