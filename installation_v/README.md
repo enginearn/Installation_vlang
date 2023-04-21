@@ -26,7 +26,8 @@ And also execute the following command to recgognize the V language commands:
 - Finally, run the following command to create a symlink to the V executable:
 
 ``` PowerShell
-> .\v symlink
+# Run this command as an Administrator.
+> .\v.exe symlink
 ```
 
 - After that, you can run the following command to check if V is installed correctly:
