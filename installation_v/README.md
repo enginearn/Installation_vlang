@@ -43,8 +43,7 @@ V 0.3.3 b6ecd63
 installation_v> where.exe v
 C:\Users\path\to\AppData\Local\v\.bin\v.bat
 PS C:\Users\path\to\Development\vlang\installation_v> cd C:\Users\path\to\AppData\Local\v
-PS C:\Users\path\to\AppData\Local\v>
-PS C:\Users\path\to\AppData\Local\v> git pull
+> git pull
 remote: Enumerating objects: 998, done.
 remote: Counting objects: 100% (832/832), done.
 remote: Compressing objects: 100% (403/403), done.
@@ -62,8 +61,20 @@ Updating b6ecd634e3..72cbca9653
 Fast-forward
  .github/workflows/bootstrapping_works_ci.yml       |    4 +-
  create mode 100644 vlib/v/tests/var_option_sumtype_test.v
-PS C:\Users\path\to\AppData\Local\v> v version
-V 0.3.3 b6ecd63
+> v version
+V 0.3.4 34163ae
+> cd
+> v
+ ____    ____
+ \   \  /   /  |  Welcome to the V REPL (for help with V itself, type  exit , then run  v help ).
+  \   \/   /   |  Note: the REPL is highly experimental. For best V experience, use a text editor,
+   \      /    |  save your code in a  main.v  file and execute:  v run main.v
+    \    /     |  V 0.3.4 34163ae . Use  list  to see the accumulated program so far.
+     \__/      |  Use Ctrl-C or  exit  to exit, or  help  to see other available commands.
+
+>>> println('Hello World!')
+Hello World!
+>>>
 ```
 
 ## Projects
